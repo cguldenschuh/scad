@@ -8,43 +8,14 @@
 // MUST BE DEFINED BEFORE INCLUDING YAPP_Generator
 // NOTE: These dimensions are labeled for use with YAPPgenerator.  They
 //       would normally be _w, _h, and _l (width, height, length)
-// RJ45 Dimensions
-RJ45_x = 16.5;
-RJ45_y = 13.5;
-RJ45_d = 25.5;
 
-// USB (double) Dimensions
-USBA_x = 14.7;
-USBA_y = 16.0;
-USBA_d = 17.6;
+include <components.scad>
 
-// USB-C Dimensions
-USBC_x = 9.1;
-USBC_y = 3.2;
-USBC_d = 7.4;
-
-// Mini HDMI
-mHDMI_x = 6.6;
-mHDMI_y = 3.6;
-mHDMI_d = 8.3;
-
-// Micro SD
-mSD_x = 12.1;
-mSD_y = 1.1;
-mSD_d = 11.7;
-
-SPK_x = 7.0;
-SPK_y = 6.0;
-SPK_z = 11.5;
-
-CSI_x = 3.5;
-CSI_y = 20;
 cMNT_x = 55;
 cMNT_y = 28;
 cMNT_d = 4;
 
-GPIO_x = 56;
-GPIO_y = 8.5;
+// Centerline for GPIO pins
 GPIO_c = 61.5;
 
 // RPI 4 MODEL B SPECIFIC
